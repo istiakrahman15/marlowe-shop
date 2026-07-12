@@ -1,0 +1,22 @@
+{
+  "name": "marlowe-shop",
+  "version": "2.1.0",
+  "private": true,
+  "description": "Marlowe — full-stack general store on Express + Turso (libSQL), deployable on Railway",
+  "type": "module",
+  "main": "server.js",
+  "engines": {
+    "node": ">=18.17.0"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "@libsql/client": "^0.14.0",
+    "@vercel/blob": "^0.27.0",
+    "bcryptjs": "^2.4.3",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2"
+  }
+}
